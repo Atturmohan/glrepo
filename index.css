@@ -1,0 +1,53 @@
+.divider {
+    height: 0;
+    border: none;
+    border-bottom: 1px solid crimson;
+}
+
+.hide {
+    display: none !important;
+}
+
+.contact-list {
+    margin: 20px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.group {
+    margin: 40px auto;
+}
+
+.group-name {
+    font-size: 3em;
+    color: crimson;
+}
+
+.person {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: goldenrod;
+    color: rgba( 255, 255, 255, 0.75 );
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+}
+
+.person-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.add-contact {
+    padding: 10px;
+    outline: none;
+    background-color: crimson;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.add-contact:hover {
+    opacity: 1;
+}
